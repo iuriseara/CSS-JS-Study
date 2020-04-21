@@ -1,0 +1,96 @@
+body {
+    background-color: #EFFBFF;
+    margin: 0;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    margin: 100px auto;
+    width: 626px;
+    height: 754px;
+    background-color: white;
+    -webkit-box-shadow: 7px 4px 23px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 7px 4px 23px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 7px 4px 23px 0px rgba(50, 50, 50, 0.75);
+}
+
+h1 {
+    margin: 0;
+    color: #707070;
+    font-size: 50px;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+hr {
+    border: 2px solid #707070;
+    margin-left: 15px;
+}
+
+#text {
+    font-size: 21px;
+    color: #707070;
+    margin-left: 15px;
+}
+
+.img {
+    align-items: center;
+    width: 626px;
+    height: 415px;
+    background-image: url(/img/img1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.btm-cntnr {
+    position: relative;
+    height: 116px;
+}
+
+button {
+    background-color: #EFFBFF;
+    color: #969696;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    margin-left: 370px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+button:hover {
+    -webkit-box-shadow: inset 5px 5px 37px 2px rgba(0, 199, 255, 0.41);
+    box-shadow: inset 5px 5px 37px 2px rgba(0, 199, 255, 0.41);
+}
+
+.counter-container {
+    width: 100px;
+    float: left;
+    display: flex;
+
+}
+
+#display {
+    margin-top: 45px;
+    margin-left: 10px;
+}
+
+svg {
+    margin-top: 45px;
+    margin-left: 30px;
+}
+
+.colorbar {
+    width: 626px;
+    height: 8px;
+    background-color: #D1E3FF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
